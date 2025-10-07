@@ -30,7 +30,36 @@ function Projects() {
       ],
       color: "from-green-500 to-green-700",
       emoji: "✈️",
-      link: "https://github.com/Saurabh9172/Airline_Reservation_System", // replace with actual link
+      link: "https://github.com/Saurabh9172/Airline_Reservation_System",
+    },
+
+    // ✅ Feedback Management System Project
+    {
+      title: "Feedback Management System",
+      description:
+        "A web-based platform developed during internship at Sunbeam Infotech, Pune, designed to digitalize the student feedback process with secure authentication, role-based access, and centralized cloud database management using Azure SQL Server.",
+      tech: [
+        "React.js (Vite)",
+        "ASP.NET Core Web API",
+        "Entity Framework Core",
+        "SQL Server (Azure)",
+        "Bootstrap",
+        "Material UI"  
+           ],
+      features: [
+        "Role-Based Login for Admin, Staff, and Students",
+        "Feedback Scheduling with Expiry Management",
+        "Student Dashboard with Pending & History Sections",
+        "MCQ, Rating, and Descriptive Question Types",
+        "Pagination and Caching using TanStack React Query",
+        "Secure Password Hashing and JWT Authentication",
+        "Centralized Database Hosted on Azure SQL Server",
+        "Exception Handling and DTO-based Data Transfer",
+        ],
+      color: "from-indigo-500 to-indigo-700",
+      emoji: "📝",
+      link: "https://github.com/00Feedback-Management-System",
+      live: "https://feedback-front-end-sage.vercel.app/", // 🔗 replace with your actual live link
     },
   ];
 
@@ -79,7 +108,8 @@ function Projects() {
           viewport={{ once: false, amount: 0.3 }}
         >
           Here are some projects that demonstrate my skills and experience in
-          full-stack development, AI integration, and problem-solving
+          full-stack development, cloud deployment, and efficient database
+          design.
         </motion.p>
 
         {/* Project Cards */}
@@ -186,19 +216,29 @@ function Projects() {
                   ))}
                 </motion.div>
 
-                {/* View Project Button */}
-                {project.link && (
-                  <div className="mt-2">
+                {/* View Links */}
+                <div className="mt-2 flex gap-3">
+                  {project.link && (
                     <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block px-4 py-2 rounded-md bg-blue-500 text-white font-semibold text-sm hover:bg-blue-600 transition-colors duration-300"
                     >
-                      View Project
+                      GitHub
                     </a>
-                  </div>
-                )}
+                  )}
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-4 py-2 rounded-md bg-green-500 text-white font-semibold text-sm hover:bg-green-600 transition-colors duration-300"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}

@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTheme } from './ThemeContext';
 import emailjs from '@emailjs/browser';
-import myPhoto from "../assest/Saurabh.JPG";
+import myPhoto from "../asset/Saurabh.JPG";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Contact() {
