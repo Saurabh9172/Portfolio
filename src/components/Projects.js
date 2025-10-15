@@ -59,7 +59,7 @@ function Projects() {
       color: "from-indigo-500 to-indigo-700",
       emoji: "📝",
       link: "https://github.com/00Feedback-Management-System",
-      live: "https://feedback-front-end-sage.vercel.app/", // 🔗 replace with your actual live link
+      // live: "https://feedback-front-end-sage.vercel.app/", // 🔗 replace with your actual live link
     },
   ];
 

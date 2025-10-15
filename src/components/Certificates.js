@@ -13,6 +13,15 @@ function Certificates() {
       year: "2024",
       color: "from-yellow-400 to-orange-500",
       link: "https://drive.google.com/file/d/1-eM2lPRErwnq-fmdtVaTiY-E2Eu_Dkdf/view?usp=sharing" // replace with actual certificate link if any
+    },
+    {
+       icon: "💼",
+       title: "Internship in MS.NET Full Stack Development",
+       description: "Successfully completed a 2-month internship in MS.NET Full Stack Development at Sunbeam Infotech Pvt. Ltd., Pune, gaining hands-on experience in software design, web development, and real-world project implementation. Awarded Grade 'A' for performance.",
+       issuer: "Sunbeam Infotech Pvt. Ltd., Pune",
+       year: "2025",
+       color: "from-blue-500 to-cyan-400",
+       link: "https://drive.google.com/file/d/19LnR85wxu4mulUaVwnDJUA0FQ8ZPSdaP/view?usp=sharing" // replace with actual certificate link
     }
   ];
 
