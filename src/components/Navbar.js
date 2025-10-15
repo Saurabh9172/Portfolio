@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { isDark, toggleTheme } = useTheme();
 
-  const menuItems = ["Home", "About", "Skills", "Projects", "Achievements", "Contact"];
+  const menuItems = ["Home", "About", "Skills", "Projects", "Certificates", "Contact"];
 
   return (
     <motion.nav
