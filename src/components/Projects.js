@@ -1,6 +1,8 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { useTheme } from "./ThemeContext";
+import e_commerce from "../asset/e-commerce.PNG";
+import airline from "../asset/airline.PNG";
+import feedback from "../asset/feedback_management.png";
 
 function Projects() {
   const { isDark } = useTheme();
@@ -29,11 +31,11 @@ function Projects() {
         "Database Interaction using Hibernate ORM",
       ],
       color: "from-green-500 to-green-700",
-      emoji: "✈️",
+      image: airline,
       link: "https://github.com/Saurabh9172/Airline_Reservation_System",
     },
 
-    // ✅ Feedback Management System Project
+    // Feedback Management System Project
     {
       title: "Feedback Management System",
       description:
@@ -44,8 +46,8 @@ function Projects() {
         "Entity Framework Core",
         "SQL Server (Azure)",
         "Bootstrap",
-        "Material UI"  
-           ],
+        "Material UI",
+      ],
       features: [
         "Role-Based Login for Admin, Staff, and Students",
         "Feedback Scheduling with Expiry Management",
@@ -55,11 +57,39 @@ function Projects() {
         "Secure Password Hashing and JWT Authentication",
         "Centralized Database Hosted on Azure SQL Server",
         "Exception Handling and DTO-based Data Transfer",
-        ],
+      ],
       color: "from-indigo-500 to-indigo-700",
-      emoji: "📝",
+      image: feedback,
       link: "https://github.com/00Feedback-Management-System",
       // live: "https://feedback-front-end-sage.vercel.app/", // 🔗 replace with your actual live link
+    },
+    {
+      title: "E-Commerce Web Application",
+      description:
+        "A full-stack online shopping platform developed using React.js and Node.js, featuring role-based access for Admin and Users. The system enables product management, cart handling, secure authentication, and real-time state management with a modern UI.",
+      tech: [
+        "React.js (Vite)",
+        "Node.js",
+        "Express.js",
+        "MongoDB (Mongoose)",
+        "JWT Authentication",
+        "useContext API",
+        "CSS3 / Bootstrap",
+      ],
+      features: [
+        "Role-Based Access for Admin and Users",
+        "Admin Dashboard for Product CRUD Operations",
+        "User Authentication with JWT (Login & Register)",
+        "Add to Cart Functionality using useContext API",
+        "Dynamic Product Listing and Filtering",
+        "Responsive Frontend with Modern UI Design",
+        "Secure API Integration between Frontend and Backend",
+        "Persistent Cart Management and State Handling",
+      ],
+      color: "from-emerald-500 to-emerald-700",
+      image: e_commerce,
+      link: "https://github.com/Saurabh9172/E-Commerce",
+      live: "https://e-commerce-delta-three-83.vercel.app/",
     },
   ];
 
@@ -131,18 +161,15 @@ function Projects() {
             >
               {/* Project Header with Emoji */}
               <motion.div
-                className={`h-48 bg-gradient-to-br ${project.color} flex items-center justify-center`}
-                whileHover={{ scale: 1.1 }}
+                className={`h-48 bg-gradient-to-br ${project.color} flex items-center justify-center overflow-hidden`}
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <motion.div
-                  className="text-6xl"
-                  initial={{ scale: 1 }}
-                  whileHover={{ scale: 1.2, rotate: 10 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  {project.emoji}
-                </motion.div>
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
+                  className="object-fill w-full h-full shadow-md"
+                />
               </motion.div>
 
               {/* Project Content */}
