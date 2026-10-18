@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e08b0fc2.css",
-    "main.js": "/Portfolio/static/js/main.3670c1af.js",
+    "main.css": "/Portfolio/static/css/main.f0461ffb.css",
+    "main.js": "/Portfolio/static/js/main.7a598f4b.js",
     "static/media/e-commerce.PNG": "/Portfolio/static/media/e-commerce.514eaf7fd95f36997759.PNG",
     "static/media/feedback_management.png": "/Portfolio/static/media/feedback_management.6b7ca4b057bbd296633a.png",
     "static/media/airline.PNG": "/Portfolio/static/media/airline.c92a649cb6925bc799e4.PNG",
@@ -11,11 +11,11 @@
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.e08b0fc2.css.map": "/Portfolio/static/css/main.e08b0fc2.css.map",
-    "main.3670c1af.js.map": "/Portfolio/static/js/main.3670c1af.js.map"
+    "main.f0461ffb.css.map": "/Portfolio/static/css/main.f0461ffb.css.map",
+    "main.7a598f4b.js.map": "/Portfolio/static/js/main.7a598f4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e08b0fc2.css",
-    "static/js/main.3670c1af.js"
+    "static/css/main.f0461ffb.css",
+    "static/js/main.7a598f4b.js"
   ]
 }
