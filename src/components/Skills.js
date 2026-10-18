@@ -18,18 +18,10 @@ function Skills() {
     "title": "Backend Development",
     "skills": ["Node.js", "Express.js", "Spring Boot", "Spring MVC", "J2EE", ".NET", "RESTful APIs", "Servlets & JSP"]
   },
-  {
-  "title": "Cloud & DevOps",
-  "skills": [
-    "Azure Logic Apps",
-    "Azure Function Apps",
-    "Azure Service Bus",
-    "Application Insights (KQL)",
-    "Azure Key Vault",
-    "Azure DevOps",
-    "CI/CD Pipelines"
-  ]
-},
+    {
+    "title": "Cloud & DevOps",
+    "skills": ["Azure Logic Apps", "Azure Function Apps", "Azure Service Bus", "Azure Data Factory", "Pipeline Monitoring & Alerts", "Application Insights (KQL)", "Azure Key Vault", "Azure DevOps", "CI/CD Pipelines"]
+  },
   {
     "title": "Database",
     "skills": ["MySQL", "MongoDB", "Hibernate (ORM)"]

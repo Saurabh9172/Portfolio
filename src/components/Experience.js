@@ -11,10 +11,12 @@ const experiences = [
     location: "Pune, Maharashtra",
     type: "Full-time · On-site",
     current: true,
-    points: [
+        points: [
       "Developed and maintained Azure solutions using Logic Apps, Function Apps, and Service Bus for message-based processing and workflow integration.",
       "Diagnosed and resolved dead-letter issues in Service Bus queues connected to Function Apps by tracing failures through Application Insights and writing Kusto (KQL) log queries.",
       "Monitored application health and exceptions with Application Insights; managed secrets and connection strings in Azure Key Vault.",
+      "Monitored Azure Data Factory (ADF) pipelines; diagnosed failed runs from run details and error logs, fixed the cause, and re-ran them successfully.",
+      "Created alert rules for ADF so failed pipeline runs trigger notifications.",
       "Worked in Azure DevOps: source code in Repos, CI/CD pipelines, and tracking of tasks and bugs through to resolution.",
     ],
     tech: [
@@ -22,6 +24,7 @@ const experiences = [
       "Azure Logic Apps",
       "Function Apps",
       "Service Bus",
+      "Azure Data Factory",
       "Application Insights",
       "Key Vault",
       "Azure DevOps",
